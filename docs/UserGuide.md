@@ -174,6 +174,18 @@ Restores a previously undone address book state from its history.
 
 Format: `redo`
 
+### Send email to people: `email`
+
+Format: `email CONTACT_NAME`
+
+* Send email to people in the list at the specificed `CONTACT_NAME`
+* The contact name refer to the contact in the list
+
+Examples:
+* `email Shuogeng` command will open a new window as email form
+* Sendor email and receiver email will be auto filled
+* User needs to key in `Subject` and `content` and press `Send` button to send email
+
 ### Clearing all entries : `clear`
 
 Clears all entries from TeamContact 24/7 app.
